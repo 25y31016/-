@@ -1,4 +1,3 @@
-import run
 import streamlit as st
 import requests
 import datetime
@@ -177,3 +176,4 @@ if st.session_state.show_popup:
     # 닫기 버튼 처리
     if "close" in st.query_params:
         st.session_state.show_popup = False
+
